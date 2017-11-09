@@ -1,0 +1,38 @@
+body{ 
+    text-align: center; 
+    background-color: rgba(206, 193, 200, 0.774);
+    font-family: 'Indie Flower', cursive;
+} 
+
+.board {
+    margin: 20px auto;
+    border-collapse:collapse;
+    /*borrar bordes de alrededor*/
+    border: hidden;
+     
+}
+body h1{
+    color: rgb(221, 39, 197);
+    font-size: 40px;
+}
+
+td{ 
+    color: rgb(110, 14, 167); 
+    margin: 0 auto; 
+    border: 3px solid rgb(110, 119, 204);
+    text-align: center; 
+    
+    /*tamaño de lo q ira en cada cuadrado */
+    font-size: 300%; 
+    height: 100px; 
+    width: 100px; 
+} 
+#reset{
+    color: rgb(221, 39, 197);
+    background: rgb(135, 191, 224);
+    font-weight: bold;
+    border-style: none;
+    width: 70px;
+    height: 30px;
+    margin-top: 30px;
+}
